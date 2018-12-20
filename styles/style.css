@@ -5,10 +5,15 @@ body {
 
 .nav-ribbon {
   background-color: white;
+  padding: 24px;
 }
 
+.nav-ribbon nav {
+  margin-right: 20px;
+}
 nav li {
   list-style-type: none;
+  padding: 8px 0;
 }
 
 nav a {
@@ -26,4 +31,18 @@ h1 {
 .main-content {
   flex: 2;
   background-color: gray;
+  padding: 24px;
+}
+
+.greeting-div {
+  margin-top: 200px;
+  padding: 12px;
+  border-style: solid;
+ border-radius: 2px;
+ border-color: green;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
