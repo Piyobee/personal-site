@@ -1,10 +1,11 @@
 body {
   background-color: rgba(255, 255, 0, 0.05);
   display: flex;
+  margin: 0;
 }
 
 .nav-ribbon {
-  /*background-color: white;*/
+  background-color: white;
   border-right: 1px solid lightgray;
   padding: 24px;
 }
@@ -37,11 +38,10 @@ h1 {
 .main-content {
   flex: 2;
   padding: 24px;
-  background-image: url("../images/kitten.jpg");
-  background-size: auto 700px;
+  /*background-image: url("../images/kitten.jpg");*/
+  /*background-size: auto 700px;
   background-repeat: no-repeat;
-  background-position: right top;
-  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+  background-position: right top;*/
   height: 100vh;
 }
 
@@ -61,11 +61,17 @@ h1 {
  width: 420px;
 }
 
-/*img {
-  position: relative;
+img {
+  position: absolute;
   top: 0;
   right: 0;
-}*/
+  z-index: -10;
+  height: 120vh;
+}
+
+.img-unicorn {
+  opacity: 0.65;
+}
 
 footer {
   margin-top: 100px;
